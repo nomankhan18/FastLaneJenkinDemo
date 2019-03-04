@@ -15,9 +15,9 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### flavours
+### fl
 ```
-fastlane flavours
+fastlane fl
 ```
 Deploy a new alpha version to the Google Play Store
 

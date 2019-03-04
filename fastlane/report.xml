@@ -5,27 +5,27 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00499">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.018738">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: gradle" time="2.22063">
+      <testcase classname="fastlane.lanes" name="1: gradle" time="2.281166">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: mv /Users/noman/AndroidStudio/FastLaneJenkinsDemo/app/build/outputs/apk/release/app-release.apk ~/Desktop/Android/" time="0.012294">
+      <testcase classname="fastlane.lanes" name="2: mv /Users/noman/AndroidStudio/FastLaneJenkinsDemo/app/build/outputs/apk/release/app-release.apk ~/Desktop/Android/" time="0.022127">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: gradle" time="1.535998">
+      <testcase classname="fastlane.lanes" name="3: gradle" time="1.552843">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: mv /Users/noman/AndroidStudio/FastLaneJenkinsDemo/app/build/outputs/apk/debug/app-debug.apk ~/Desktop/Android/" time="0.006511">
+      <testcase classname="fastlane.lanes" name="4: mv /Users/noman/AndroidStudio/FastLaneJenkinsDemo/app/build/outputs/apk/debug/app-debug.apk ~/Desktop/Android/" time="0.016609">
         
       </testcase>
     

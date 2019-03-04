@@ -24,7 +24,7 @@ platform :android do
 end
  desc "Deploy a new alpha version to the Google Play Store"
   lane :fl do
-  gradle(task: 'assemble', build_type: 'release')
+  gradle(task: 'assemble', build_type: 'Release')
     APK_LOCATION = "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"
     sh("mv #{APK_LOCATION} ~/Desktop/Android/")
 
