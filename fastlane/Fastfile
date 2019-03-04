@@ -32,3 +32,8 @@ end
     APK_LOCATION = "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"
     sh("mv #{APK_LOCATION} ~/Desktop/Android/")
   end
+
+   desc "Testing "
+    lane :pt do
+      puts "Hi there"
+    end

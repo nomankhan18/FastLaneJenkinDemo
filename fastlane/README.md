@@ -20,6 +20,11 @@ or alternatively using `brew cask install fastlane`
 fastlane fl
 ```
 Deploy a new alpha version to the Google Play Store
+### pt
+```
+fastlane pt
+```
+Testing 
 
 ----
 
