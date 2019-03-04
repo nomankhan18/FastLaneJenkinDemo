@@ -26,11 +26,11 @@ end
   lane :fl do
   gradle(task: 'assemble', build_type: 'Release')
     APK_LOCATION = "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"
-    sh("mv #{APK_LOCATION} /Users/noman/AndroidApk/")
+   # sh("mv #{APK_LOCATION} /Users/noman/AndroidApk/")
 
     gradle(task: 'assemble', build_type: 'debug')
     APK_LOCATION = "#{lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH]}"
-    sh("mv #{APK_LOCATION} /Users/noman/AndroidApk/")
+  #  sh("mv #{APK_LOCATION} /Users/noman/AndroidApk/")
   end
 
    desc "Testing "
